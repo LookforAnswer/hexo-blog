@@ -50,6 +50,9 @@ npm config delete proxy
 
 # 添加淘宝的源 https://npm.taobao.org/
 npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+# 通过此命令查看源是否已更改
+npm config get registry
 ```
 
 到此，你应该也可以愉快的安装 hexo，验证是否安装成功，使用如下命令
@@ -92,3 +95,9 @@ hexo clean #清楚缓存
 
 [https://juejin.im/post/5b3ed1d4e51d45194e0b7884]: https://juejin.im/post/5b3ed1d4e51d45194e0b7884
 [https://hexo.io/zh-cn/docs/configuration]: https://hexo.io/zh-cn/docs/configuration
+
+# Hexo主题
+
+官方主题汇总：https://hexo.io/themes/
+
+个人觉得最好看的主题：https://github.com/klugjo/hexo-theme-clean-blog
